@@ -22,8 +22,8 @@ A highly available, cloud-native image repository architected on AWS. This proje
 4. Launch the Flask server on the target EC2 instance.
 
 ## Turn Off Block public access (bucket settings)
-* **and use below code** in Bucket policy
-
+* **and use below code** in Bucket policy.
+* 
 `{`
     `"Version": "2012-10-17",`
     ` "Statement": [`
