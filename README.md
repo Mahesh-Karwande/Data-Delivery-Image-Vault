@@ -23,7 +23,7 @@ A highly available, cloud-native image repository architected on AWS. This proje
 
 ## Turn Off Block public access (bucket settings)
 * **and use below code** in Bucket policy.
-* 
+* .
 `{`
     `"Version": "2012-10-17",`
     ` "Statement": [`
@@ -36,3 +36,5 @@ A highly available, cloud-native image repository architected on AWS. This proje
         `}`
     `]`
 `}`
+.
+## Create IAM role to access S3 bucket by EC2 and assign it to EC2
