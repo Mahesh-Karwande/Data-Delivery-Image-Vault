@@ -23,15 +23,16 @@ A highly available, cloud-native image repository architected on AWS. This proje
 
 ## Turn Off Block public access (bucket settings)
 * **and use below code** in Bucket policy
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "PublicReadGetObject",
-            "Effect": "Allow",
-            "Principal": "*",
-            "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::user-pictures-bucket-20260621053341019000000003/*"
-        }
-    ]
-}
+
+`{`
+    `"Version": "2012-10-17",`
+    ` "Statement": [`
+        `{`
+            `"Sid": "PublicReadGetObject",`
+            `"Effect": "Allow",`
+            `"Principal": "*",`
+            `"Action": "s3:GetObject",`
+            `"Resource": "arn:aws:s3:::user-pictures-bucket-20260621053341019000000003/*"`
+        `}`
+    `]`
+`}`
